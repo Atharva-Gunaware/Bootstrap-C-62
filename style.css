@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    background: linear-gradient(purple 0% , blue 100%);
+    color:white;
+}
+.line{
+    height: 6px;
+    width: 100px;
+    background-color: white;
+    margin: 6px auto;
+}
+img{
+    transition: transform .2s;
+    
+}
+img:hover{
+    transform: scale(0.9);
+}
+#myCarousel img{
+    margin-top: 20px;
+    
+}
+.carousel-inner p{
+    color:white;
+    font-size: 30px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
